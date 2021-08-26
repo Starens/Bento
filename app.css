@@ -12,11 +12,10 @@
   --iconsize: 3vh;
 
   /* Light theme  */
-  --accent: #61b0f1; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
-  --sbg: #e4e6e6; /* Cards color */
-
-  --fg: #3a3a3a; /* Foreground color */
+  --accent: #5e81ac; /* Hover color */
+  --bg: #353c4a; /* Background color */
+  --sbg: #3b4252; /* Cards color */
+  --fg: #e5e9f0; /* Foreground color */
   --sfg: #3a3a3a; /* Sceondary Foreground color */
 
   /* Image background  */
@@ -26,24 +25,27 @@
     change the --imgcol value 
     to make the filter to your own */
 
-  --imgbg: url(assets/background.jpg);
+  --imgbg: url(assets/bg.jpg);
   --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
+    rgba(94, 129, 172, 0.5), 
+    rgba(53, 60, 74, 0.9)
   ); /* Filter color */
 }
 
 /* Dark theme  */
 .darktheme {
-  --accent: #61b0f1; /* Hover color */
-  --bg: #19171a; /* Background color */
-  --sbg: #201e21; /* Cards color */
+  --accent: #5e81ac; /* Hover color */
+  --bg: #353c4a; /* Background color */
+  --sbg: #2e3440; /* Cards color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #3a3a3a; /* Secondary Foreground color */
+
+  --imgbg: url(assets/bgd.jpg);
   --imgcol: linear-gradient(
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.85)
-  ); /* Filter color */
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    );
+  /* Filter color */
 }
 
 /* S T Y L E S */

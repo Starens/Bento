@@ -11,8 +11,8 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
-  imageBackground: false,
+  name: 'Henrik',
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: false,
 
@@ -23,11 +23,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherKey: '23be1bf5242ce5809783e631477577cb',
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
-  weatherLatitude: '37.774929',
-  weatherLongitude: '-122.419418',
+  weatherLatitude: '57.239400',
+  weatherLongitude: '12.181645',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -37,33 +37,34 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'gitlab',
+      icon: 'gitlab',
+      link: 'https://gitlab.com/',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Azure',
+      icon: 'cloud',
+      link: 'https://portal.azure.com/#home',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
       name: 'Reddit',
       icon: 'bookmark',
       link: 'https://reddit.com',
+    },
+    {
+      id: '4',
+      name: 'linkedin',
+      icon: 'linkedin',
+      link: 'https://se.linkedin.com/',
+    },
+    {
+      id: '5',
+
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/',
     },
     {
       id: '6',
@@ -103,16 +104,16 @@ const CONFIG = {
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Jira',
+        link: 'https://jira-prod.gunnebo.com/jira/secure/RapidBoard.jspa?rapidView=94&view=planning.nodetail&issueLimit=1000',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Confluence',
+        link: 'https://callistaenterprise.atlassian.net/wiki/home',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Time-report',
+        link: 'https://me71619-iaccess.deltekfirst.com/maconomy',
       },
       {
         name: 'Telegram',
