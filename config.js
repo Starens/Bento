@@ -68,9 +68,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com',
     },
   ],
 
@@ -79,33 +79,33 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'log-in',
+  secondListIcon: 'home',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Jira',
+        link: 'https://jira-prod.gunnebo.com/jira/secure/RapidBoard.jspa?rapidView=94&view=planning.nodetail&issueLimit=1000',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Devops',
+        link: 'https://dev.azure.com/gunnebo',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Whitesource',
+        link: 'https://saas-eu.whitesourcesoftware.com/Wss/WSS.html#!home',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Confluences',
+        link: 'https://confluence-prod.gunnebo.com/confluence/#all-updates',
       },
     ],
     secondList: [
       {
-        name: 'Jira',
-        link: 'https://jira-prod.gunnebo.com/jira/secure/RapidBoard.jspa?rapidView=94&view=planning.nodetail&issueLimit=1000',
+        name: 'Dropbox',
+        link: 'https://www.dropbox.com/home',
       },
       {
         name: 'Confluence',
@@ -116,8 +116,8 @@ const CONFIG = {
         link: 'https://me71619-iaccess.deltekfirst.com/maconomy',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Gmail',
+        link: 'https://mail.google.com/mail/u/0/#inbox',
       },
     ],
   },
