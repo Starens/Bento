@@ -91,7 +91,7 @@ const CONFIG = {
       },
       {
         name: 'Devops',
-        link: 'https://dev.azure.com/gunnebo',
+        link: 'https://dev.azure.com/gunnebo-ec',
       },
       {
         name: 'Whitesource',
