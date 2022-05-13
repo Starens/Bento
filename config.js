@@ -13,7 +13,7 @@ const CONFIG = {
   // General
   name: 'Henrik',
   imageBackground: true,
-  openInNewTab: false,
+  openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
@@ -37,9 +37,9 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'gitlab',
-      icon: 'gitlab',
-      link: 'https://gitlab.com/',
+      name: 'Azure devops',
+      icon: 'git-branch',
+      link: 'https://dev.azure.com/gunnebo-ec/IoT-Solutions/',
     },
     {
       id: '2',
